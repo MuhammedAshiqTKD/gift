@@ -1,0 +1,230 @@
+.main-1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    justify-content: center;
+    height:70px;
+    display: flex;
+    align-items: center;
+}
+.main-2 nav{
+    background-color: #f9ece6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.nav-logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 700;   
+    display: none;
+}
+.nav-main{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: #f9ece6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #514f4f;
+}
+.nav-main a{
+    text-decoration: none;
+    color: #514f4f;
+}
+.nav-main div:hover a{
+    color: #514f4f;
+}
+.active-btn span{
+    border: 1px solid white;
+    padding: 5px 18px;
+    border-radius: 5px;
+    background-color: white;
+}
+ .nav-main-sub{
+    display: flex;
+    color: black;
+}
+ .nav-main-sub span{
+    border: none;
+ }
+ .main-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f89cab;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+ }
+ .main-3-sub{
+    width: 50%;
+ }
+ .main-3-img{
+    width: 30%;
+ }
+ .main-3 img{
+    height: 500px;
+ }
+ .main-3 h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+ }
+ .main-3-text{
+    width: 90%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-weight: 500;
+ }
+ .main-3-button{
+    margin-top: 35px;
+ }
+ .main-3-button button{
+    border: 1px solid #db4566;
+    border-radius: 5px;
+    background-color: #db4566;
+    color: white;
+    padding: 8px 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .main-4{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+ }
+ .main-5{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+ }
+ .main-5-sub-1{
+    width: 17%;
+    background-color:#eeeeee;
+    padding: 10px;
+ }
+ .main-5-sub-1 img{
+    width: 100%;
+    padding: 15px 30px;
+ }
+ @media (min-width:300px) and (max-width:576px){
+    .nav-logo{
+        display: flex;
+       }
+       .main-1{
+       display: none;
+       }
+       .main-2{
+        margin-top: 5px;
+       }
+       .main-2 nav{
+        background-color:white;
+        }
+       .nav-main{
+        display: inline;
+        text-align: center;
+        margin-top: 15px;
+        padding-top: 5px;
+       }
+       .nav-main-sub{
+        display: flex;
+        justify-content: center;
+       }
+       .main-3{
+        display: block;
+        background-color: #f89cab;
+        padding-top: 40px;
+        padding-bottom: 40px;
+     }
+     .main-3-img{
+        text-align: center;
+        margin-top: 30px;
+        width: 100%;
+     }
+     .main-3-sub{
+        width: 80%;
+        margin-left: 8%;
+        margin-right: 8%;
+     }
+     .main-3 h1{
+        font-family: "poppins", sans-serif;
+        font-size: 45px;
+     }
+     .main-3-text{
+        font-size: 15px;
+     }
+     .main-3 img{
+        height: 450px;
+     }
+
+ }
+ @media (min-width:576px) and (max-width:768px){
+    .nav-logo{
+        display: flex;
+       }
+       .main-1{
+       display: none;
+       }
+       .main-2{
+        margin-top: 5px;
+       }
+       .main-2 nav{
+        background-color:white;
+        }
+       .nav-main{
+        display: inline;
+        text-align: center;
+        margin-top: 15px;
+        padding-top: 5px;
+       }
+       .nav-main-sub{
+        display: flex;
+        justify-content: center;
+       }
+       .main-3{
+        display: block;
+        background-color: #f89cab;
+        padding-top: 40px;
+        padding-bottom: 40px;
+     }
+     .main-3-img{
+        text-align: center;
+        margin-top: 20px;
+     }
+     .main-3-sub{
+        width: 80%;
+        margin-left: 8%;
+        margin-right: 8%;
+     }
+     .main-3-img{
+        width: 100%;
+     }
+ }
+ @media (min-width:768px) and (max-width:992px){
+    .nav-logo{
+        display: flex;
+       }
+       .main-1{
+       display: none;
+       }
+       .main-2{
+        margin-top: 5px;
+       }
+       .main-2 nav{
+        background-color:white;
+        }
+       .nav-main{
+        display: inline;
+        text-align: center;
+        margin-top: 15px;
+        padding-top: 5px;
+       }
+       .nav-main-sub{
+        display: flex;
+        justify-content: center;
+       }
+}
