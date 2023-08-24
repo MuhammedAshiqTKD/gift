@@ -655,11 +655,116 @@
 
 /* /////////////////////////// */
 
+/* footer  */
+.footer-main {
+   background-color: #2c2d2f;
+   height: 420px;
+   margin-top: 6%;
+   width: 95%;
+   margin-left: 2.3%;
+}
 
+.footer-icons-main {
+   text-align: center;
 
+}
 
+.footer-icons-main i {
+   margin-top: 5%;
+   margin-right: 20px;
+   color: white;
+   font-size: 24px;
+   cursor: pointer;
+}
 
+.footer-flex-main-contents {
+   display: flex;
+   width: 96%;
+   gap: 20px;
+   padding-left: 14%;
+   margin-top: 5%;
+}
+.footer-first h3{
+   font-size: 20px;
+   font-weight: 700;
+   color: white;
+}
+.footer-first p{
 
+   color: white;
+}
+.footer-first{
+   width: 55%;
+}
+.footer-second{
+   width: 55%;
+}
+.footer-second h3{
+   color: white;
+}
+.footer-third{
+   width: 55%;
+}
+.footer-four{
+   width: 75%;
+   
+}
+.footer-second input{
+   padding: 7px 30px;
+}
+.footer-second a{
+   color: white;
+   background-color: #db4566;
+   padding: 6px 34px;
+   text-decoration: none;
+   padding-top: 5%;
+   
+}
+#footerft {
+   margin-top: 6.4%;
+}
+.footer-four span{
+   margin-left: 5%;
+}
+.footer-third h3{
+   color: white;
+   font-size: 19px;
+   font-weight: 770;
+}
+.footer-third p{
+   color: white;
+   
+}
+.footer-four h3{
+   color: white;
+   font-size: 19px;
+   font-weight: 770;
+}
+.footer-four i{
+   color: white;
+   font-size: 19px;
+   font-weight: 770;
+   
+}
+.footer-four a{
+   color: white;
+   text-decoration: none ;
+}
+#mailmm{
+   font-size: 17px;
+}
+.borderbottom h2{
+   border-bottom: 1.1px solid white;
+   width: 58%;
+   margin: auto;
+   margin-top: 2%;
+}
+.footerbttomtext h2{
+   font-size: 16px;
+   color: rgb(224, 224, 224);
+   margin-left: 34%;
+   margin-top: 1.7%;
+}
 
 
 
@@ -1140,25 +1245,103 @@ background-color: #b37b48;
       font-weight: 700;
    }
 
-   /*  */
-}
+
 
 .buttoncaorusel1 i {
    color: white;
-   background-color: #ff3662;
+   background-color: #ff3662b7;
    margin-right: 1%;
-   padding: 20px 10px;
+   padding: 10px 10px;
    font-size: 29px;
 }
 
 .buttoncaorusel2 i {
    color: white;
-   background-color: #ff1145;
+   background-color: #ff1145ae;
    margin-left: 1%;
-   padding: 20px 10px;
+   padding: 10px 10px;
    font-size: 29px;
 }
 
+.carouselwidth {
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 7%;
+   border: 1px solid transparent;
+   padding: 15px 20px;
+   box-shadow: -3px -1px 23px -8px rgba(0, 0, 0, 0.75);
+}
+
+.testimontaltext h1 {
+   margin-left: 25%;
+   padding-top: 5%;
+}
+/* footer */
+.footer-flex-main-contents {
+   display: inline;
+   width: 96%;
+   gap: 20px;
+   padding-left: 14%;
+   margin-top: 5%;
+   
+}
+.footer-main {
+   background-color: #2c2d2f;
+   height: auto;
+   margin-top: 6%;
+   width: 95%;
+   margin-left: 2.3%;
+   padding-bottom: 5%;
+}
+.footer-first{
+   width: 90%;
+   margin-left: 8%;
+}
+.footer-second{
+   width: 90%;
+   margin-left: 8%;
+   margin-top: 13%;
+}
+.footer-second h3{
+   color: white;
+}
+.footer-third{
+   width: 90%;
+   margin-left: 8%;
+   margin-top: 13%;
+}
+.footer-four{
+   width: 90%;
+   margin-left: 8%;
+   margin-top: 13%;
+   
+}
+.footer-second input{
+   padding: 7px 30px;
+
+}
+.footer-second h3{
+   margin-top: 5%;
+
+}
+.footer-second a{
+   color: white;
+   background-color: #db4566;
+   padding: 6px 34px;
+   text-decoration: none;
+   padding-top: 3%;
+   margin-top: 7%;
+   
+   
+}
+.footerbttomtext h2{
+   font-size: 16px;
+   color: rgb(224, 224, 224);
+   margin-left: 14%;
+   margin-top: 1.7%;
+   width: 70%;
+}
+}
 
 
 
